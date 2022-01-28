@@ -51,8 +51,11 @@ app.post('/users', (req, res) => {
   id++
 })
 
+ app.delete('/users/:name', (req, res)=>{
+  
+  res.status(400).send("User not found.")
+})
  
-
 
 
 
