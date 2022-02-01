@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #385170; 
+}
+
+header {
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background: #385170; 
+    color: white;
+
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+}
+
+form {
+    width: 350px;
+    height: 380px;
+    background: #ececec; 
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background: #ececec; 
+}
+
+
+
+#dog-container {
+    width: 85%;
+}
+
+#radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.dog-cover {
+    width: 240px; 
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.dog-card {
+    background-color: #ececec; 
+    width: 240px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 380px;
+}
+
+.dog-title {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.dog-rating {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.dog-rating, p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+
+
+#complimentButton{
+ background: #ececec; 
+ padding: 10px;
+
+}
+
+#addDogBtn{
+    background: #ececec; 
+    padding: 10px;   
+    background: #ececec; 
+    color: #142d4c; 
+    border: 3px solid #142d4c; 
+}
+
+#ageBtn{
+    color: #142d4c; 
+    padding: 10px;
+    font-size: 25px;
+  text-align: center;
+}
+
+#deleteDogBtn{
+    color: #142d4c; 
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
